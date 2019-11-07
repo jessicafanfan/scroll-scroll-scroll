@@ -239,7 +239,7 @@
   right: 0vw;
 }
 .polygon svg {
-  width: 20vw;
+  width: 40vh;
   position: absolute;
   top: 0;
   left: 0;
@@ -264,16 +264,16 @@
   align-items: center;
 }
 .polygon__inner {
-  height: 17.32vw;
-  width: 20vw;
+  height: 34.64vh;
+  width: 40vh;
   position: relative;
 }
 .polygon__inner svg {
   position: absolute;
   top: 0;
   left: 0;
-  height: 17.32vw;
-  width: 20vw;
+  height: 34.64vh;
+  width: 40vh;
   transform: scale(0);
 }
 .polygon__inner svg:first-child {

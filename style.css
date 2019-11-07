@@ -1,0 +1,325 @@
+.rect-holder {
+  position: fixed;
+  width: 10vw;
+  height: 10vw;
+  top: calc(50vh - 5vw);
+  left: calc(50vw - 5vw);
+}
+.rect-holder .rect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.rect-holder .rect:first-child {
+  background: rgb(0, 81, 255);
+}
+.rect-holder .rect:nth-child(2) {
+  background: red;
+}
+.rect-holder .rect:nth-child(3) {
+  background: greenyellow;
+}
+.rect-holder .rect:nth-child(4) {
+  background: rgb(255, 132, 0);
+}
+.rect-holder .rect:nth-child(5) {
+  background: rgb(255, 133, 251);
+}
+.stagger-rect-holder {
+  position: fixed;
+  width: 60vw;
+  height: 60vw;
+  top: calc(50% - 30vw);
+  left: calc(50% - 30vw);
+}
+.stagger-rect {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.stagger-rect:first-child {
+  background: rgb(255, 255, 59);
+}
+.stagger-rect:nth-child(2) {
+  background: orangered;
+}
+.stagger-rect:nth-child(3) {
+  background: rgb(255, 132, 0);
+}
+
+.circle-holder {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+.base-circle {
+  position: absolute;
+  width: 20vh;
+  height: 20vh;
+  border-radius: 50%;
+}
+.base-circle__inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20vh;
+  height: 20vh;
+  border-radius: 50%;
+}
+.base-circle:first-child {
+  top: 15vw;
+  left: 20vw;
+  background: greenyellow;
+}
+.base-circle:first-child .base-circle__inner:first-child {
+  background: rgb(80, 0, 114);
+}
+.base-circle:first-child .base-circle__inner:last-child {
+  background: rgb(255, 255, 59);
+}
+
+.base-circle:nth-child(2) {
+  top: 70vh;
+  left: 2vw;
+  background: gainsboro;
+}
+.base-circle:nth-child(2) .base-circle__inner:first-child {
+  background: rgb(255, 133, 251);
+}
+.base-circle:nth-child(2) .base-circle__inner:last-child {
+  background: mediumspringgreen;
+}
+
+.base-circle:nth-child(3) {
+  top: 25vh;
+  left: 50vw;
+  background: orangered;
+}
+.base-circle:nth-child(3) .base-circle__inner:first-child {
+  background: greenyellow;
+}
+.base-circle:nth-child(3) .base-circle__inner:nth-child(2) {
+  background: rgb(255, 133, 251);
+}
+.base-circle:nth-child(3) .base-circle__inner:last-child {
+  background: rgb(255, 255, 59);
+}
+
+.base-circle:nth-child(4) {
+  top: 110vh;
+  left: 40vw;
+  background: mediumspringgreen;
+}
+.base-circle:nth-child(4) .base-circle__inner:first-child {
+  background: orangered;
+}
+
+.base-circle:nth-child(5) {
+  top: 60vh;
+  right: 10vw;
+  background: orangered;
+}
+.base-circle:nth-child(5) .base-circle__inner:first-child {
+  background: olivedrab;
+}
+.base-circle:nth-child(5) .base-circle__inner:last-child {
+  background: rgb(255, 132, 0);
+}
+
+.base-circle:nth-child(6) {
+  top: 75vh;
+  left: 30vw;
+  background: rgb(255, 255, 59);
+}
+.base-circle:nth-child(6) .base-circle__inner:first-child {
+  background: rgb(80, 0, 114);
+}
+.base-circle:nth-child(6) .base-circle__inner:last-child {
+  background: mediumspringgreen;
+}
+
+.circle-row {
+  top: calc(50% - 5vh);
+  left: calc(50% - 40vh);
+  height: 10vh;
+  width: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+}
+.circle-row .circle {
+  width: 10vh;
+  height: 10vh;
+  transform: scale(0);
+}
+
+.circle-row .circle:first-child {
+  background: rgb(255, 255, 59);
+  border-radius: 50%;
+}
+
+.circle-row .circle:nth-child(2) {
+  background: rgb(255, 255, 100);
+  border-radius: 40%;
+}
+
+.circle-row .circle:nth-child(3) {
+  background: rgb(255, 255, 150);
+  border-radius: 25%;
+}
+
+.circle-row .circle:nth-child(4) {
+  background: rgb(255, 255, 200);
+  border-radius: 10%;
+}
+
+.circle-row .circle:nth-child(5) {
+  background: rgb(255, 255, 255);
+  border-radius: 0%;
+}
+
+.square-pattern {
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+}
+.square-pattern .square-row {
+  width: 100vw;
+  height: 10vw;
+  display: flex;
+  flex-direction: row;
+}
+.square-pattern .square-row div {
+  width: 10vw;
+  height: 10vw;
+  background: white;
+  transform: scale(0);
+}
+
+.polygon-holder {
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+}
+.polygon {
+  height: 17.32vw;
+  width: 20vw;
+  transform-origin: center center;
+  position: absolute;
+}
+.polygon:first-child {
+  top: 15vh;
+  left: 20vw;
+}
+.polygon:nth-child(2) {
+  top: 85vh;
+  left: 70vw;
+}
+.polygon:nth-child(3) {
+  top: 60vh;
+  left: -5vw;
+}
+.polygon:nth-child(4) {
+  top: 45vh;
+  left: 45vw;
+}
+.polygon:nth-child(5) {
+  top: 2vh;
+  right: 0vw;
+}
+.polygon svg {
+  width: 20vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  transform-origin: center center;
+}
+.polygon svg:nth-child(even) {
+  fill: orangered;
+}
+.polygon svg:nth-child(odd) {
+  fill: black;
+}
+
+.large-polygon-holder {
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.polygon__inner {
+  height: 17.32vw;
+  width: 20vw;
+  position: relative;
+}
+.polygon__inner svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 17.32vw;
+  width: 20vw;
+  transform: scale(0);
+}
+.polygon__inner svg:first-child {
+  fill: orangered;
+}
+.polygon__inner svg:nth-child(2) {
+  fill: orange;
+}
+.polygon__inner svg:nth-child(3) {
+  fill: lightgoldenrodyellow;
+}
+
+.final-rect-holder {
+  position: fixed;
+  width: 10vw;
+  height: 10vw;
+  top: calc(50vh - 5vw);
+  left: calc(50vw - 5vw);
+  display: flex;
+  flex-direction: column;
+  transform: scale(0);
+}
+
+.final-rect-holder .rect-row {
+  width: 10vw;
+  height: 5vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.final-rect-holder .rect-row div {
+  width: 5vw;
+  height: 5vw;
+  background: black;
+}
+
+.final-rect-holder .rect-row:first-child div:last-child {
+  transform: translateX(-5vw);
+  background: red;
+}
+.final-rect-holder .rect-row:last-child div:first-child {
+  transform: translate(5vw, -5vw);
+  opacity: 0;
+  background: orange;
+}
+.final-rect-holder .rect-row:last-child div:last-child {
+  transform: translate(-5vw, -5vw);
+  background: green;
+}

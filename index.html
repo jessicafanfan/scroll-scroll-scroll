@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Scroll Scroll Scroll</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div
+        class="rect-holder"
+        data-500="transform[quadratic]: rotate(0deg) scaleY(1);"
+        data-650="transform[quadratic]: rotate(90deg) scaleY(6);"
+      >
+        <div
+          class="rect"
+          data-0="transform[quadratic]: scaleX(1);"
+          data-200="transform[quadratic]: scaleX(2);"
+        ></div>
+        <div
+          class="rect"
+          data-150="transform[quadratic]: scaleX(1);"
+          data-350="transform[quadratic]: scaleX(3);"
+        ></div>
+        <div
+          class="rect"
+          data-300="transform[quadratic]: scaleX(1);"
+          data-450="transform[quadratic]: scaleX(4);"
+        ></div>
+        <div
+          class="rect"
+          data-400="transform[quadratic]: scaleX(1);"
+          data-550="transform[quadratic]: scaleX(5);"
+        ></div>
+        <div
+          class="rect"
+          data-500="transform[quadratic]: scaleX(1);"
+          data-650="transform[quadratic]: scaleX(6);"
+        ></div>
+      </div>
+      <div
+        class="stagger-rect-holder"
+        data-600="transform[quadratic]: scale(0);"
+        data-800="transform[quadratic]: scale(1);"
+      >
+        <div
+          class="stagger-rect"
+          data-600="transform[quadratic]: scale(0);"
+          data-800="transform[quadratic]: scale(4);"
+        ></div>
+        <div
+          class="stagger-rect"
+          data-700="transform[quadratic]: scale(0);"
+          data-900="transform[quadratic]: scale(4);"
+        ></div>
+        <div
+          class="stagger-rect"
+          data-800="transform[quadratic]: scale(0);"
+          data-1000="transform[quadratic]: scale(4);"
+        ></div>
+        <div
+          class="stagger-rect"
+          data-900="transform[quadratic]: scale(0);background-color: rgb(255, 132, 0);"
+          data-1100="transform[quadratic]: scale(4);background-color: rgb(255, 132, 0);"
+          data-1800="background-color: rgb(255, 132, 0);"
+          data-2500="background-color: rgb(255, 69, 0);"
+        ></div>
+      </div>
+      <div class="circle-holder">
+        <div
+          class="base-circle"
+          data-2500="transform[quadratic]: scale(0);"
+          data-2700="transform[quadratic]: scale(3);"
+          data-2700="transform[quadratic]: scale(2);"
+          data-2900="transform[quadratic]: scale(0);"
+        >
+          <div
+            class="base-circle__inner"
+            data-2600="transform[quadratic]: scale(0);"
+            data-2800="transform[quadratic]: scale(0.8);"
+          ></div>
+          <div
+            class="base-circle__inner"
+            data-2650="transform[quadratic]: scale(0);"
+            data-2900="transform[quadratic]: scale(0.5);"
+          ></div>
+        </div>
+        <div
+          class="base-circle"
+          data-2050="transform[quadratic]: scale(0);"
+          data-2200="transform[quadratic]: scale(1);"
+          data-2400="transform[quadratic]: scale(1);"
+          data-2600="transform[quadratic]: scale(0);"
+        >
+          <div
+            class="base-circle__inner"
+            data-2100="transform[quadratic]: scale(0);"
+            data-2550="transform[quadratic]: scale(0.8);"
+          ></div>
+          <div
+            class="base-circle__inner"
+            data-2300="transform[quadratic]: scale(0);"
+            data-2650="transform[quadratic]: scale(0.5);"
+          ></div>
+        </div>
+        <div
+          class="base-circle"
+          data-1900="transform[quadratic]: scale(0);"
+          data-2200="transform[quadratic]: scale(4);"
+          data-2400="transform[quadratic]: scale(4);"
+          data-2800="transform[quadratic]: scale(0);"
+        >
+          <div
+            class="base-circle__inner"
+            data-2000="transform[quadratic]: scale(0);"
+            data-2500="transform[quadratic]: scale(0.8);"
+          ></div>
+          <div
+            class="base-circle__inner"
+            data-2100="transform[quadratic]: scale(0);"
+            data-2600="transform[quadratic]: scale(0.6);"
+          ></div>
+          <div
+            class="base-circle__inner"
+            data-2200="transform[quadratic]: scale(0);"
+            data-2700="transform[quadratic]: scale(0.4);"
+          ></div>
+        </div>
+        <div
+          class="base-circle"
+          data-1750="transform[quadratic]: scale(0);"
+          data-2200="transform[quadratic]: scale(5);"
+          data-2200="transform[quadratic]: scale(5);"
+          data-2500="transform[quadratic]: scale(0);"
+        >
+          <div
+            class="base-circle__inner"
+            data-1800="transform[quadratic]: scale(0);"
+            data-2250="transform[quadratic]: scale(0.8);"
+          ></div>
+        </div>
+        <div
+          class="base-circle"
+          data-1600="transform[quadratic]: scale(0);"
+          data-2200="transform[quadratic]: scale(2);"
+          data-2300="transform[quadratic]: scale(2);"
+          data-2600="transform[quadratic]: scale(0);"
+        >
+          <div
+            class="base-circle__inner"
+            data-1900="transform[quadratic]: scale(0);"
+            data-2350="transform[quadratic]: scale(0.8);"
+          ></div>
+          <div
+            class="base-circle__inner"
+            data-1950="transform[quadratic]: scale(0);"
+            data-2400="transform[quadratic]: scale(0.5);"
+          ></div>
+        </div>
+        <div
+          class="base-circle"
+          data-850="transform[quadratic]: scale(0);"
+          data-1500="transform[quadratic]: scale(2);"
+          data-1700="transform[quadratic]: scale(2);"
+          data-2000="transform[quadratic]: scale(0);"
+        >
+          <div
+            class="base-circle__inner"
+            data-1200="transform[quadratic]: scale(0);"
+            data-1900="transform[quadratic]: scale(0.8);"
+          ></div>
+          <div
+            class="base-circle__inner"
+            data-1250="transform[quadratic]: scale(0);"
+            data-1950="transform[quadratic]: scale(0.5);"
+          ></div>
+        </div>
+        <div class="circle-row">
+          <div
+            class="circle"
+            data-2800="transform[quadratic]: scale(0);"
+            data-2900="transform[quadratic]: scale(0.8);"
+            data-3100="transform[quadratic]: scale(0.6);"
+            data-3300="transform[quadratic]: scale(1);"
+            data-4400="transform[quadratic]: scale(0);"
+          ></div>
+          <div
+            class="circle"
+            data-3100="transform[quadratic]: scale(0);"
+            data-3200="transform[quadratic]: scale(0.8);"
+            data-3400="transform[quadratic]: scale(0.6);"
+            data-3600="transform[quadratic]: scale(1);"
+            data-4500="transform[quadratic]: scale(0);"
+          ></div>
+          <div
+            class="circle"
+            data-3400="transform[quadratic]: scale(0);"
+            data-3500="transform[quadratic]: scale(0.8);"
+            data-3700="transform[quadratic]: scale(0.6);"
+            data-3900="transform[quadratic]: scale(1);"
+            data-4600="transform[quadratic]: scale(0);"
+          ></div>
+          <div
+            class="circle"
+            data-3700="transform[quadratic]: scale(0);"
+            data-3800="transform[quadratic]: scale(0.8);"
+            data-4000="transform[quadratic]: scale(0.6);"
+            data-4200="transform[quadratic]: scale(1);"
+            data-4700="transform[quadratic]: scale(0);"
+          ></div>
+          <div
+            class="circle"
+            data-4000="transform[quadratic]: scale(0);"
+            data-4100="transform[quadratic]: scale(0.8);"
+            data-4300="transform[quadratic]: scale(0.6);"
+            data-4500="transform[quadratic]: scale(1);"
+            data-4800="transform[quadratic]: scale(0);"
+          ></div>
+        </div>
+      </div>
+      <div class="square-pattern">
+        <div class="square-row">
+          <div
+            data-4700="transform[quadratic]: scale(0) rotate(0deg);"
+            data-4800="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5000="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-4720="transform[quadratic]: scale(0) rotate(0deg);"
+            data-4820="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5020="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-4740="transform[quadratic]: scale(0) rotate(0deg);"
+            data-4840="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5040="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-4760="transform[quadratic]: scale(0) rotate(0deg);"
+            data-4860="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5060="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-4780="transform[quadratic]: scale(0) rotate(0deg);"
+            data-4880="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5080="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-4800="transform[quadratic]: scale(0) rotate(0deg);"
+            data-4900="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5100="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-4820="transform[quadratic]: scale(0) rotate(0deg);"
+            data-4920="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5120="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-4840="transform[quadratic]: scale(0) rotate(0deg);"
+            data-4940="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5140="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-4860="transform[quadratic]: scale(0) rotate(0deg);"
+            data-4960="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5160="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-4880="transform[quadratic]: scale(0) rotate(0deg);"
+            data-4980="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5180="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+        </div>
+        <div class="square-row">
+          <div
+            data-4900="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5000="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5200="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-4920="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5020="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5220="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-4940="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5040="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5240="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-4960="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5060="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5260="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-4980="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5080="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5280="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5000="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5100="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5300="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5020="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5120="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5320="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5040="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5140="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5340="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5060="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5160="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5360="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5080="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5180="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5380="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+        </div>
+        <div class="square-row">
+          <div
+            data-5100="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5200="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5400="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5120="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5220="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5420="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5140="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5240="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5440="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5160="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5260="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5460="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5180="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5280="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5480="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5200="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5300="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5500="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5220="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5320="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5520="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5240="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5340="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5540="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5260="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5360="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5560="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5280="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5380="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5580="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+        </div>
+        <div class="square-row">
+          <div
+            data-5300="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5400="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5600="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5320="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5420="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5620="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5340="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5440="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5640="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5360="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5460="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5660="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5380="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5480="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5680="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5400="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5500="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5700="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5420="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5520="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5720="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5440="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5540="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5740="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5460="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5560="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5760="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5480="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5580="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5780="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+        </div>
+        <div class="square-row">
+          <div
+            data-5500="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5600="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5800="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5520="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5620="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5820="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5540="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5640="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5840="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5560="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5660="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5860="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5580="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5680="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5880="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5600="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5700="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5900="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5620="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5720="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5920="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5640="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5740="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5940="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5660="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5760="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5960="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5680="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5780="transform[quadratic]: scale(1) rotate(90deg);"
+            data-5980="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+        </div>
+        <div class="square-row">
+          <div
+            data-5700="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5800="transform[quadratic]: scale(1) rotate(90deg);"
+            data-6000="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5720="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5820="transform[quadratic]: scale(1) rotate(90deg);"
+            data-6020="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5740="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5840="transform[quadratic]: scale(1) rotate(90deg);"
+            data-6040="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5760="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5860="transform[quadratic]: scale(1) rotate(90deg);"
+            data-6060="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5780="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5880="transform[quadratic]: scale(1) rotate(90deg);"
+            data-6080="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5800="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5900="transform[quadratic]: scale(1) rotate(90deg);"
+            data-6100="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5820="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5920="transform[quadratic]: scale(1) rotate(90deg);"
+            data-6120="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5840="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5940="transform[quadratic]: scale(1) rotate(90deg);"
+            data-6140="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5860="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5960="transform[quadratic]: scale(1) rotate(90deg);"
+            data-6160="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5880="transform[quadratic]: scale(0) rotate(0deg);"
+            data-5980="transform[quadratic]: scale(1) rotate(90deg);"
+            data-6180="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+        </div>
+        <div class="square-row">
+          <div
+            data-5900="transform[quadratic]: scale(0) rotate(0deg);"
+            data-6000="transform[quadratic]: scale(1) rotate(90deg);"
+            data-6200="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5920="transform[quadratic]: scale(0) rotate(0deg);"
+            data-6020="transform[quadratic]: scale(1) rotate(90deg);"
+            data-6220="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5940="transform[quadratic]: scale(0) rotate(0deg);"
+            data-6040="transform[quadratic]: scale(1) rotate(90deg);"
+            data-6240="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5960="transform[quadratic]: scale(0) rotate(0deg);"
+            data-6060="transform[quadratic]: scale(1) rotate(90deg);"
+            data-6260="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-5980="transform[quadratic]: scale(0) rotate(0deg);"
+            data-6080="transform[quadratic]: scale(1) rotate(90deg);"
+            data-6280="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-6000="transform[quadratic]: scale(0) rotate(0deg);"
+            data-6100="transform[quadratic]: scale(1) rotate(90deg);"
+            data-6300="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-6020="transform[quadratic]: scale(0) rotate(0deg);"
+            data-6120="transform[quadratic]: scale(1) rotate(90deg);"
+            data-6320="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-6040="transform[quadratic]: scale(0) rotate(0deg);"
+            data-6140="transform[quadratic]: scale(1) rotate(90deg);"
+            data-6340="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-6060="transform[quadratic]: scale(0) rotate(0deg);"
+            data-6160="transform[quadratic]: scale(1) rotate(90deg);"
+            data-6360="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+          <div
+            data-6080="transform[quadratic]: scale(0) rotate(0deg);"
+            data-6180="transform[quadratic]: scale(1) rotate(90deg);"
+            data-6380="transform[quadratic]: scale(1) rotate(180deg);"
+          ></div>
+        </div>
+      </div>
+
+      <div class="polygon-holder">
+        <div
+          class="polygon"
+          data-5500="transform[quadratic]: translateY(0px) rotate(0deg);"
+          data-9000="transform[quadratic]: translateY(1000px) rotate(360deg);"
+        >
+          <svg
+            data-5800="transform[quadratic]: scale(0) rotate(0deg);"
+            data-7500="transform[quadratic]: scale(1) rotate(180deg);"
+            data-8000="transform[quadratic]: scale(0.8) rotate(270deg);"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 580.749 502.944"
+          >
+            <path
+              d="M450.234,21.9H159.86L14.672,273.369,159.86,524.841H450.234L595.422,273.369Z"
+              transform="translate(-14.672 -21.897)"
+            />
+          </svg>
+          <svg
+            data-5700="transform[quadratic]: scale(0) rotate(0deg);"
+            data-7000="transform[quadratic]: scale(1) rotate(135deg);"
+            data-7500="transform[quadratic]: scale(0.8) rotate(225deg);"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 580.749 502.944"
+          >
+            <path
+              d="M450.234,21.9H159.86L14.672,273.369,159.86,524.841H450.234L595.422,273.369Z"
+              transform="translate(-14.672 -21.897)"
+            />
+          </svg>
+          <svg
+            data-5600="transform[quadratic]: scale(0) rotate(0deg);"
+            data-6500="transform[quadratic]: scale(1) rotate(90deg);"
+            data-7000="transform[quadratic]: scale(0.7) rotate(180deg);"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 580.749 502.944"
+          >
+            <path
+              d="M450.234,21.9H159.86L14.672,273.369,159.86,524.841H450.234L595.422,273.369Z"
+              transform="translate(-14.672 -21.897)"
+            />
+          </svg>
+          <svg
+            data-5500="transform[quadratic]: scale(0) rotate(0deg);"
+            data-6000="transform[quadratic]: scale(1) rotate(45deg);"
+            data-6500="transform[quadratic]: scale(0.6) rotate(135deg);"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 580.749 502.944"
+          >
+            <path
+              d="M450.234,21.9H159.86L14.672,273.369,159.86,524.841H450.234L595.422,273.369Z"
+              transform="translate(-14.672 -21.897)"
+            />
+          </svg>
+        </div>
+
+        <div
+          class="polygon"
+          data-5700="transform[quadratic]: translateY(0px) rotate(0deg);"
+          data-8200="transform[quadratic]: translateY(-1200px) rotate(360deg);"
+        >
+          <svg
+            data-6000="transform[quadratic]: scale(0) rotate(0deg);"
+            data-7700="transform[quadratic]: scale(1) rotate(180deg);"
+            data-8200="transform[quadratic]: scale(0.8) rotate(270deg);"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 580.749 502.944"
+          >
+            <path
+              d="M450.234,21.9H159.86L14.672,273.369,159.86,524.841H450.234L595.422,273.369Z"
+              transform="translate(-14.672 -21.897)"
+            />
+          </svg>
+          <svg
+            data-5900="transform[quadratic]: scale(0) rotate(0deg);"
+            data-7200="transform[quadratic]: scale(1) rotate(135deg);"
+            data-7700="transform[quadratic]: scale(0.8) rotate(225deg);"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 580.749 502.944"
+          >
+            <path
+              d="M450.234,21.9H159.86L14.672,273.369,159.86,524.841H450.234L595.422,273.369Z"
+              transform="translate(-14.672 -21.897)"
+            />
+          </svg>
+          <svg
+            data-5800="transform[quadratic]: scale(0) rotate(0deg);"
+            data-6700="transform[quadratic]: scale(1) rotate(90deg);"
+            data-7200="transform[quadratic]: scale(0.7) rotate(180deg);"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 580.749 502.944"
+          >
+            <path
+              d="M450.234,21.9H159.86L14.672,273.369,159.86,524.841H450.234L595.422,273.369Z"
+              transform="translate(-14.672 -21.897)"
+            />
+          </svg>
+          <svg
+            data-5700="transform[quadratic]: scale(0) rotate(0deg);"
+            data-6200="transform[quadratic]: scale(1) rotate(45deg);"
+            data-6700="transform[quadratic]: scale(0.6) rotate(135deg);"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 580.749 502.944"
+          >
+            <path
+              d="M450.234,21.9H159.86L14.672,273.369,159.86,524.841H450.234L595.422,273.369Z"
+              transform="translate(-14.672 -21.897)"
+            />
+          </svg>
+        </div>
+
+        <div
+          class="polygon"
+          data-5900="transform[quadratic]: translateX(0px) rotate(0deg);"
+          data-8400="transform[quadratic]: translateX(-300px) rotate(360deg);"
+        >
+          <svg
+            data-6200="transform[quadratic]: scale(0) rotate(0deg);"
+            data-7900="transform[quadratic]: scale(1) rotate(180deg);"
+            data-8400="transform[quadratic]: scale(0.8) rotate(270deg);"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 580.749 502.944"
+          >
+            <path
+              d="M450.234,21.9H159.86L14.672,273.369,159.86,524.841H450.234L595.422,273.369Z"
+              transform="translate(-14.672 -21.897)"
+            />
+          </svg>
+          <svg
+            data-6100="transform[quadratic]: scale(0) rotate(0deg);"
+            data-7400="transform[quadratic]: scale(1) rotate(135deg);"
+            data-7900="transform[quadratic]: scale(0.8) rotate(225deg);"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 580.749 502.944"
+          >
+            <path
+              d="M450.234,21.9H159.86L14.672,273.369,159.86,524.841H450.234L595.422,273.369Z"
+              transform="translate(-14.672 -21.897)"
+            />
+          </svg>
+          <svg
+            data-6000="transform[quadratic]: scale(0) rotate(0deg);"
+            data-6900="transform[quadratic]: scale(1) rotate(90deg);"
+            data-7400="transform[quadratic]: scale(0.7) rotate(180deg);"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 580.749 502.944"
+          >
+            <path
+              d="M450.234,21.9H159.86L14.672,273.369,159.86,524.841H450.234L595.422,273.369Z"
+              transform="translate(-14.672 -21.897)"
+            />
+          </svg>
+          <svg
+            data-5900="transform[quadratic]: scale(0) rotate(0deg);"
+            data-6400="transform[quadratic]: scale(1) rotate(45deg);"
+            data-6900="transform[quadratic]: scale(0.6) rotate(135deg);"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 580.749 502.944"
+          >
+            <path
+              d="M450.234,21.9H159.86L14.672,273.369,159.86,524.841H450.234L595.422,273.369Z"
+              transform="translate(-14.672 -21.897)"
+            />
+          </svg>
+        </div>
+
+        <div
+          class="polygon"
+          data-6100="transform[quadratic]: translateX(0px) rotate(0deg);"
+          data-9200="transform[quadratic]: translateX(1200px) rotate(360deg);"
+        >
+          <svg
+            data-6400="transform[quadratic]: scale(0) rotate(0deg);"
+            data-8100="transform[quadratic]: scale(1) rotate(180deg);"
+            data-8600="transform[quadratic]: scale(0.8) rotate(270deg);"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 580.749 502.944"
+          >
+            <path
+              d="M450.234,21.9H159.86L14.672,273.369,159.86,524.841H450.234L595.422,273.369Z"
+              transform="translate(-14.672 -21.897)"
+            />
+          </svg>
+          <svg
+            data-6300="transform[quadratic]: scale(0) rotate(0deg);"
+            data-7600="transform[quadratic]: scale(1) rotate(135deg);"
+            data-8100="transform[quadratic]: scale(0.8) rotate(225deg);"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 580.749 502.944"
+          >
+            <path
+              d="M450.234,21.9H159.86L14.672,273.369,159.86,524.841H450.234L595.422,273.369Z"
+              transform="translate(-14.672 -21.897)"
+            />
+          </svg>
+          <svg
+            data-6200="transform[quadratic]: scale(0) rotate(0deg);"
+            data-7100="transform[quadratic]: scale(1) rotate(90deg);"
+            data-7600="transform[quadratic]: scale(0.7) rotate(180deg);"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 580.749 502.944"
+          >
+            <path
+              d="M450.234,21.9H159.86L14.672,273.369,159.86,524.841H450.234L595.422,273.369Z"
+              transform="translate(-14.672 -21.897)"
+            />
+          </svg>
+          <svg
+            data-6100="transform[quadratic]: scale(0) rotate(0deg);"
+            data-6600="transform[quadratic]: scale(1) rotate(45deg);"
+            data-7100="transform[quadratic]: scale(0.6) rotate(135deg);"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 580.749 502.944"
+          >
+            <path
+              d="M450.234,21.9H159.86L14.672,273.369,159.86,524.841H450.234L595.422,273.369Z"
+              transform="translate(-14.672 -21.897)"
+            />
+          </svg>
+        </div>
+
+        <div
+          class="polygon"
+          data-6300="transform[quadratic]: translateX(0px) rotate(0deg);"
+          data-9900="transform[quadratic]: translateX(300px) rotate(360deg);"
+        >
+          <svg
+            data-6600="transform[quadratic]: scale(0) rotate(0deg);"
+            data-8300="transform[quadratic]: scale(1) rotate(180deg);"
+            data-8800="transform[quadratic]: scale(0.8) rotate(270deg);"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 580.749 502.944"
+          >
+            <path
+              d="M450.234,21.9H159.86L14.672,273.369,159.86,524.841H450.234L595.422,273.369Z"
+              transform="translate(-14.672 -21.897)"
+            />
+          </svg>
+          <svg
+            data-6500="transform[quadratic]: scale(0) rotate(0deg);"
+            data-7800="transform[quadratic]: scale(1) rotate(135deg);"
+            data-8300="transform[quadratic]: scale(0.8) rotate(225deg);"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 580.749 502.944"
+          >
+            <path
+              d="M450.234,21.9H159.86L14.672,273.369,159.86,524.841H450.234L595.422,273.369Z"
+              transform="translate(-14.672 -21.897)"
+            />
+          </svg>
+          <svg
+            data-6400="transform[quadratic]: scale(0) rotate(0deg);"
+            data-7300="transform[quadratic]: scale(1) rotate(90deg);"
+            data-7800="transform[quadratic]: scale(0.7) rotate(180deg);"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 580.749 502.944"
+          >
+            <path
+              d="M450.234,21.9H159.86L14.672,273.369,159.86,524.841H450.234L595.422,273.369Z"
+              transform="translate(-14.672 -21.897)"
+            />
+          </svg>
+          <svg
+            data-6300="transform[quadratic]: scale(0) rotate(0deg);"
+            data-6800="transform[quadratic]: scale(1) rotate(45deg);"
+            data-7300="transform[quadratic]: scale(0.6) rotate(135deg);"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 580.749 502.944"
+          >
+            <path
+              d="M450.234,21.9H159.86L14.672,273.369,159.86,524.841H450.234L595.422,273.369Z"
+              transform="translate(-14.672 -21.897)"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <div class="large-polygon-holder">
+        <div class="polygon__inner">
+          <svg
+            data-8500="transform[quadratic]: scale(0);"
+            data-10000="transform[quadratic]: scale(8);"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 580.749 502.944"
+          >
+            <path
+              d="M450.234,21.9H159.86L14.672,273.369,159.86,524.841H450.234L595.422,273.369Z"
+              transform="translate(-14.672 -21.897)"
+            />
+          </svg>
+          <svg
+            data-8800="transform[quadratic]: scale(0);"
+            data-10300="transform[quadratic]: scale(8);"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 580.749 502.944"
+          >
+            <path
+              d="M450.234,21.9H159.86L14.672,273.369,159.86,524.841H450.234L595.422,273.369Z"
+              transform="translate(-14.672 -21.897)"
+            />
+          </svg>
+          <svg
+            data-9100="transform[quadratic]: scale(0);"
+            data-10600="transform[quadratic]: scale(8);"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 580.749 502.944"
+          >
+            <path
+              d="M450.234,21.9H159.86L14.672,273.369,159.86,524.841H450.234L595.422,273.369Z"
+              transform="translate(-14.672 -21.897)"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <div
+        data-10300="transform[quadratic]: scale(0);"
+        data-10500="transform[quadratic]: scale(1);"
+        class="final-rect-holder"
+      >
+        <div class="rect-row">
+          <div></div>
+          <div
+            data-10500="transform[quadratic]: translateX(-5vw);"
+            data-10600="transform[quadratic]: translateX(0vw);"
+          ></div>
+        </div>
+        <div class="rect-row">
+          <div
+            data-10699="transform[quadratic]: translate(5vw, -5vw); opacity: 0;"
+            data-10700="transform[quadratic]: translate(5vw, -5vw); opacity: 1;"
+            data-10800="transform[quadratic]: translate(5vw, 0vw);  opacity: 1;"
+            data-10900="transform[quadratic]: translate(5vw, 0vw);  opacity: 1;"
+            data-11000="transform[quadratic]: translate(0vw, 0vw);  opacity: 1;"
+          ></div>
+          <div
+            data-10500="transform[quadratic]: translate(-5vw, -5vw);"
+            data-10600="transform[quadratic]: translate(0vw, -5vw);"
+            data-10700="transform[quadratic]: translate(0vw, -5vw);"
+            data-10800="transform[quadratic]: translate(0vw, 0vw);"
+          ></div>
+        </div>
+      </div>
+    </main>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"
+    ></script>
+    <script type="text/javascript">
+      window.onload = function(e) {
+        skrollr.init();
+      };
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
